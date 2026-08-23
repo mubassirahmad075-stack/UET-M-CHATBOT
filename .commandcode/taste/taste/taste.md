@@ -1,0 +1,11 @@
+# Taste
+- Wants AI assistants to answer strictly from provided/verified context, never invent facts, and give an explicit fallback response (with contact info) when information isn't available. Confidence: 0.7
+- Wants professional, polite, concise, structured output using bullet points and markdown tables (e.g., itemized fee breakdowns). Confidence: 0.7
+- Prefers to handle API keys himself after the app is built — apps should read keys from a `.env` file (with a `.env.example` provided) rather than the user pasting the key into chat. Confidence: 0.6
+- Prefers OpenAI for LLM and embeddings APIs. Confidence: 0.7
+- Does not want raw dataset/source pages or document/page references exposed to end users in RAG chat apps — the assistant should analyze the dataset internally and answer directly. Confidence: 0.8
+- Wants UI redesigns to preserve the existing design identity — same color scheme and same animations/3D effects — while improving overall polish. Confidence: 0.8
+- Wants apps prepared for real-world/production deployment, including README with local setup + deployment options (Docker/gunicorn/PaaS), pinned requirements, and a .gitignore so secrets and build artifacts aren't committed. Confidence: 0.7
+- Wants domain Q&A assistants to tell users exactly which form/application applies to their situation (form name, who it's for, where to submit, fee, required documents) when asked about forms. Confidence: 0.7
+- Wants the assistant to consult the official live website for authoritative, up-to-date information (e.g., browse a site's downloads section via browser automation) rather than relying only on the local dataset. Confidence: 0.7
+- Wants complete coverage when collecting content from a site — "all things they uploaded," not just a sample — with direct links captured and organized into a reference document. Confidence: 0.6

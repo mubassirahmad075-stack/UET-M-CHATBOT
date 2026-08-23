@@ -1,0 +1,16 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Build artifacts
+index/
+forms_scan.txt
+
+# OS
+.DS_Store
+Thumbs.db
